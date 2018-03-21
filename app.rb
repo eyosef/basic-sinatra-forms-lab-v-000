@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    team_list = <<- FOO
+    team_list = <<-FOO
     Team Name:
     FOO
 
