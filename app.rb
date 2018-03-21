@@ -7,7 +7,7 @@ class App < Sinatra::Base
 
   post '/team' do
     team_list = <<-FOO
-    Team Name: #{name}
+    Team Name: #{params[:name]}
     Coach:
     Point Guard:
     Shooting Guard:
