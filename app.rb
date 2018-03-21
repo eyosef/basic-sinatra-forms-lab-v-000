@@ -11,7 +11,7 @@ class App < Sinatra::Base
     Coach: #{params[:coach]}
     Point Guard: #{params[:pg]}
     Shooting Guard: #{params[:sg]}
-    Power Forward:
+    Power Forward: #{params[:pf]}
     Small Forward:
     Center:
     FOO
