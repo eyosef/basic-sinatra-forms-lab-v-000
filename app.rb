@@ -6,8 +6,8 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    @team_list = []
-    
+    @team_list = ["Team Name: #{params[:name]}",]
+
     team_list = <<-FOO
     Team Name: #{params[:name]}
     Coach: #{params[:coach]}
