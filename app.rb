@@ -9,7 +9,7 @@ class App < Sinatra::Base
     team_list = <<-FOO
     Team Name: #{params[:name]}
     Coach: #{params[:coach]}
-    Point Guard:
+    Point Guard: #{params[:pg]}
     Shooting Guard:
     Power Forward:
     Small Forward:
