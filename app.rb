@@ -16,6 +16,8 @@ class App < Sinatra::Base
     Center: #{params[:c]}
     FOO
 
+    erb :team
+
   end
 
 end
