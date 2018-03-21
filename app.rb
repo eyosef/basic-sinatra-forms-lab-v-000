@@ -10,7 +10,7 @@ class App < Sinatra::Base
     Team Name: #{params[:name]}
     Coach: #{params[:coach]}
     Point Guard: #{params[:pg]}
-    Shooting Guard:
+    Shooting Guard: #{params[:sg]}
     Power Forward:
     Small Forward:
     Center:
