@@ -13,7 +13,7 @@ class App < Sinatra::Base
     Shooting Guard: #{params[:sg]}
     Power Forward: #{params[:pf]}
     Small Forward: #{params[:sf]}
-    Center:
+    Center: #{params[:c]}
     FOO
 
   end
